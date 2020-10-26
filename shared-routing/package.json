@@ -1,5 +1,12 @@
 {
   "private": true,
+  "workspaces": [
+    "dashboard",
+    "order",
+    "profile",
+    "sales",
+    "shell"
+  ],
   "scripts": {
     "start": "lerna run --scope @shared-routing/* --parallel start",
     "build": "lerna run --scope @shared-routing/* build",
